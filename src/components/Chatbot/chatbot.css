@@ -1,0 +1,29 @@
+.chat-output .message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+.bot-message {
+    display: flex;
+    align-items:top;
+    margin-right:80px;
+    margin-bottom: 12px;
+}
+.bot-message .message {
+    background: #242424;
+    color: white;
+    margin: 0 0 0 5px;
+  }
+.user-message {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 80px;
+  margin-bottom: 12px;
+}
+.user-message .message { 
+  background:#3B3ABE;
+  color: white;
+}
+
